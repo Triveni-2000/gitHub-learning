@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width:75%;
+    margin:50px auto;
+    border:1px solid gray;
+    color: white;;
+    display: grid;
+    grid-template-rows: 60px 100px 200px 60px;
+    grid-template-columns: repeat(3, 1fr)150px;
+}
+.div1{
+    background-color: aquamarine;
+    grid-column: 1/-1;
+    
+}
+.div2{
+    background-color: black;
+}
+.div3{
+    background-color: blue;
+
+}
+.div4{
+    background-color: brown;
+}
+.div5{
+    background-color: bisque;
+}
+.div6{
+    background-color: crimson;
+}
+.div7{
+    background-color: blueviolet;
+}
